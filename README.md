@@ -1,0 +1,5 @@
+# Concolic-Testing-using-CREST-tool
+Concolic Testing is a method for test input generation where a given program is executed both concretely and symbolically at the same time.
+•	Concolic execution is a mix between CONCrete execution and symbOLIC execution, with the purpose of feasibility
+•	In concolic testing the program under the test is first executed with concrete random input values. Symbolic execution is used in conjunction with an automated theorem prover based on constraint logic programming to generate  new concrete inputs with the aim of maximizing code coverage. The concrete execution in concolic testing brings the benefit that it makes available accurate information  about the program state which might not be easily accessible when using only static analysis.
+•	The concolic approach is also applicable for model checking. In a concolic model checker, the model checker traverses states of the model representing the software being checked, while storing both a concrete state and a symbolic state. The symbolic state is used for checking properties on the software, while the concrete state is used to avoid reaching unreachable state. 
